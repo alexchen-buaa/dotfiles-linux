@@ -1,3 +1,3 @@
-# Dotfiles on Linux Platforms
+# Linux (Ubuntu) Dotfiles
 
-These are my dotfiles on linux platforms.
+These are my Ubuntu dotfiles.
