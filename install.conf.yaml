@@ -1,0 +1,26 @@
+- defaults:
+        link:
+                relink: true
+
+- clean: ['~']
+
+- clean:
+        ~/:
+                force: true
+        ~/.config:
+                recursive: true
+
+- link:
+        ~/.gitconfig:
+                path: gitconfig
+        ~/.tmux.conf:
+                path: tmux.conf
+        ~/.condarc:
+                path: condarc
+        ~/.npmrc:
+                path: npmrc
+        ~/.config:
+                glob: true
+                path: config/*
+                force: true
+                relink: true
