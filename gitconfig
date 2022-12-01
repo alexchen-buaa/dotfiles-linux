@@ -3,3 +3,5 @@
 	name = alexchen-buaa
 [core]
 	editor = vi
+[credential]
+	helper = store
